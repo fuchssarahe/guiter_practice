@@ -23,3 +23,15 @@
 - number of chords must exceed 4
 - at least 3 chords must have modifiers other than minor and major
 - songs contain 2 special chords
+
+
+# Resources
+- http://pargitaru.id.lv/api/?request=chords&chord=Ab for all chord data
+
+# Run instructions
+### JavaScript
+  - download and run `node run_practice.js` from within the project's `javascript` directory
+### Ruby
+  - download and run `ruby run_practice.rb` from within the project's `ruby` directory
+### Python
+  - download and run `XXXXXX run_practice.py` from within the project's `python` directory
