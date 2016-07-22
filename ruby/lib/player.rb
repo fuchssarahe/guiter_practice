@@ -68,9 +68,3 @@ class Player
   end
 
 end
-
-
-
-if __FILE__ == $PROGRAM_NAME
-  Player.new.play
-end

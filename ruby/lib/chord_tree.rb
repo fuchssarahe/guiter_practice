@@ -46,7 +46,7 @@ class PotentialChords
   protected
   def chords_in_family(family)
     @head.children.each do |note_family|
-      next unless note_family.chord === family
+      next unless note_family.chord == family
       return note_family.children
     end
     nil

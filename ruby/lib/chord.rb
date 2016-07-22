@@ -24,7 +24,7 @@ class Chord
     node.parent = self
   end
 
-  def remove_child
+  def remove_child(node)
     @children.delete(node)
   end
 
@@ -40,7 +40,7 @@ class Chord
     puts self.chord + self.modifier
     potential_strings = ["e2", "b", "g", "d", "a", "e"]
     (1..11).each do |fret|
-      line = ''
+      line = fret + ' '
       potential_strings.each do |string|
         value = @strings[string]
         if value == fret.to_s
