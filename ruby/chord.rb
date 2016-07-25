@@ -37,10 +37,13 @@ class Chord
   end
 
   def render
-    puts self.chord + self.modifier
+    puts '    ' + self.chord + self.modifier
     potential_strings = ["e2", "b", "g", "d", "a", "e"]
     (1..11).each do |fret|
-      line = fret + ' '
+      line = fret.to_s + ' '
+      if fret < 10
+        line = '0' + line
+      end
       potential_strings.each do |string|
         value = @strings[string]
         if value == fret.to_s
