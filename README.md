@@ -1,5 +1,7 @@
 
 
+
+<!--
 # Notes:
 
 - conditions for a song to be over?
@@ -9,20 +11,20 @@
 - conditions for a valid chord
 - chord must be played no more than 4 times in a row
 
-- what constitues an easy path
+- what constitutes an easy path
 - number of chords cannot exceed 4
 - chords cannot have modifiers other than minor and major
 - no special chords can be included
 
-- what constitues a medium path
+- what constitutes a medium path
 - number of chords cannot exceed 7
 - between 1 and 3 chords should have modifiers other than minor and major
 - songs contain one special chord
 
-- what constitues a hard path
+- what constitutes a hard path
 - number of chords must exceed 4
 - at least 3 chords must have modifiers other than minor and major
-- songs contain 2 special chords
+- songs contain 2 special chords -->
 
 
 # Resources
@@ -34,4 +36,4 @@
 ### Ruby
   - download and run `ruby run_practice.rb` from within the project's `ruby` directory
 ### Python
-  - download and run `XXXXXX run_practice.py` from within the project's `python` directory
+  - download and run `python run_practice.py` from within the project's `python` directory

@@ -38,7 +38,7 @@ Song.prototype.render = function (completionCallback) {
           console.log('we`re at the end!' );
           completionCallback()
         };
-      }, 2000*i)
+      }, 1000*i)
   });
 };
 
