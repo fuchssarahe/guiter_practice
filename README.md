@@ -3,6 +3,8 @@
 ## The Vision
 Guitar Practicer is a command-line tool designed to teach musicians new guitar chords. The user plays chords in small batches, selecting the difficulty of the chords, whether they want to play chords again, or would like to try new chords. The same project is currently implemented in three different languages - Ruby, JavaScript, and Python.
 
+![Practicer in-use](guitar-gif.gif)
+
 ## The Future
 Moving forward, I'll continue to add new implementations of this project in various languages to this repo. Because the project touches on so many core programming concepts, it's a great way to pick up the syntax for many programming languages. I'm most excited to write the application using a functional language. As the current logic of the tool is heavily object-oriented, the functional approach will most certainly look quite a bit different.
 

@@ -27,7 +27,7 @@ class Chord(object):
 
     def render(self):
         print('    ' + self.chord + self.modifier)
-        potential_strings = "e2", "b", "g", "d", "a", "e"
+        potential_strings = "e", "a", "d", "g", "b", "e2"
         for fret in range(1, 12):
             line = str(fret) + ' '
             if fret < 10:

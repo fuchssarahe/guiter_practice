@@ -32,7 +32,7 @@ Chord.prototype.eqTo = function (chord) {
 
 Chord.prototype.render = function () {
   console.log('    ' + this.chord + this.modifier);
-  const potentialStrings = ["e2", "b", "g", "d", "a", "e"];
+  const potentialStrings = ["e", "a", "d", "g", "b", "e2"];
   for (let fret = 1; fret < 12; fret++) {
     let line = fret + ' ';
     if (fret <10) {
